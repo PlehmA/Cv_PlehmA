@@ -1,0 +1,221 @@
+html,body,h1,h2,h3,h4,h5,h6 {
+	font-family: "Roboto", sans-serif
+}
+body {
+	background-color: #BCBCBC;
+}
+.center {
+	text-align: center;
+}
+.center-block {
+	display: block;
+	text-align: center;
+}
+footer {
+	background-color: gray;
+}
+.treinta-porciento {
+	width: 33.33333%
+}
+.tarjeta {
+	border: 1px solid #ccc
+}
+.tarjeta-2,
+.ejemplo {
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important
+}
+.tarjeta-4,
+.hover-shadow:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important
+
+}
+.tarjeta-8 {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important
+}
+.tarjeta-12 {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19) !important
+}
+.tarjeta-16 {
+	box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21) !important
+}
+.tarjeta-24 {
+	box-shadow: 0 24px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22) !important
+}
+.animate-fading {
+	-webkit-animation: fading 10s infinite;
+	animation: fading 10s infinite
+}
+@-webkit-keyframes fading {
+	0% {
+		opacity: 0
+	}
+
+	50% {
+		opacity: 1
+	}
+
+	100% {
+		opacity: 0
+	}
+}
+@keyframes fading {
+	0% {
+		opacity: 0
+	}
+
+	50% {
+		opacity: 1
+	}
+
+	100% {
+		opacity: 0
+	}
+}
+.animate-opacity {
+	-webkit-animation: opac 0.8s;
+	animation: opac 0.8s
+}
+@-webkit-keyframes opac {
+	from {
+		opacity: 0
+	}
+	to {
+		opacity: 1
+	}
+}
+@keyframes opac {
+	from {
+		opacity: 0
+	}
+	to {
+		opacity: 1
+	}
+}
+.animate-top {
+	position: relative;
+	-webkit-animation: animatetop 0.4s;
+	animation: animatetop 0.4s
+}
+@-webkit-keyframes animatetop {
+	from {
+		top: -300px;
+		opacity: 0
+	}
+	to {
+		top: 0;
+		opacity: 1
+	}
+}
+@keyframes animatetop {
+	from {
+		top: -300px;
+		opacity: 0
+	}
+	to {
+		top: 0;
+		opacity: 1
+	}
+}
+.animate-left {
+	position: relative;
+	-webkit-animation: animateleft 0.4s;
+	animation: animateleft 0.4s
+}
+@-webkit-keyframes animateleft {
+	from {
+		left: -300px;
+		opacity: 0
+	}
+	to {
+		left: 0;
+		opacity: 1
+	}
+}
+@keyframes animateleft {
+	from {
+		left: -300px;
+		opacity: 0
+	}
+	to {
+		left: 0;
+		opacity: 1
+	}
+}
+.animate-right {
+	position: relative;
+	-webkit-animation: animateright 0.4s;
+	animation: animateright 0.4s
+}
+@-webkit-keyframes animateright {
+	from {
+		right: -300px;
+		opacity: 0
+	}
+	to {
+		right: 0;
+		opacity: 1
+	}
+}
+
+@keyframes animateright {
+	from {
+		right: -300px;
+		opacity: 0
+	}
+	to {
+		right: 0;
+		opacity: 1
+	}
+}
+
+.animate-bottom {
+	position: relative;
+	-webkit-animation: animatebottom 0.4s;
+	animation: animatebottom 0.4s
+}
+@-webkit-keyframes animatebottom {
+	from {
+		bottom: -300px;
+		opacity: 0
+	}
+	to {
+		bottom: 0px;
+		opacity: 1
+	}
+}
+@keyframes animatebottom {
+	from {
+		bottom: -300px;
+		opacity: 0
+	}
+	to {
+		bottom: 0;
+		opacity: 1
+	}
+}
+.animate-zoom {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+	from {
+		-webkit-transform: scale(0)
+	}
+	to {
+		-webkit-transform: scale(1)
+	}
+}
+@keyframes animatezoom {
+	from {
+		transform: scale(0)
+	}
+	to {
+		transform: scale(1)
+	}
+}
+.fondo-blanco {
+	background-color: white;
+}
+.texto-gris {
+	color: gray;
+}
