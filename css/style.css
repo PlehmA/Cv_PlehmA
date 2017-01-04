@@ -1,8 +1,15 @@
 html,body,h1,h2,h3,h4,h5,h6 {
 	font-family: "Roboto", sans-serif
 }
-body {
+.gris-claro {
 	background-color: #BCBCBC;
+}
+.texto-blanco {
+	color: white;
+}
+.text-teal,
+.hover-text-teal:hover {
+	color: #009688 !important
 }
 .center {
 	text-align: center;
@@ -218,4 +225,140 @@ footer {
 }
 .texto-gris {
 	color: gray;
+}
+.tooltip,
+.display-container {
+	position: relative
+}
+.display-bottomleft {
+	position: absolute;
+	left: 0;
+	bottom: 0
+}
+.border-0 {
+	border: 0 !important
+}
+
+.border {
+	border: 1px solid #ccc !important
+}
+
+.border-top {
+	border-top: 1px solid #ccc !important
+}
+
+.border-bottom {
+	border-bottom: 1px solid #ccc !important
+}
+
+.border-left {
+	border-left: 1px solid #ccc !important
+}
+
+.border-right {
+	border-right: 1px solid #ccc !important
+}
+
+.margin {
+	margin: 16px !important
+}
+
+.margin-0 {
+	margin: 0 !important
+}
+
+.margin-top {
+	margin-top: 16px !important
+}
+
+.margin-bottom {
+	margin-bottom: 16px !important
+}
+
+.margin-left {
+	margin-left: 16px !important
+}
+
+.margin-right {
+	margin-right: 16px !important
+}
+
+.section {
+	margin-top: 16px !important;
+	margin-bottom: 16px !important
+}
+
+.padding-tiny {
+	padding: 2px 4px !important
+}
+
+.padding-small {
+	padding: 4px 8px !important
+}
+
+.padding-medium,
+.padding,
+.form {
+	padding: 8px 16px !important
+}
+
+.padding-large {
+	padding: 12px 24px !important
+}
+
+.padding-xlarge {
+	padding: 16px 32px !important
+}
+
+.padding-xxlarge {
+	padding: 24px 48px !important
+}
+
+.padding-jumbo {
+	padding: 32px 64px !important
+}
+
+.padding-4 {
+	padding-top: 4px !important;
+	padding-bottom: 4px !important
+}
+
+.padding-8 {
+	padding-top: 8px !important;
+	padding-bottom: 8px !important
+}
+
+.padding-12 {
+	padding-top: 12px !important;
+	padding-bottom: 12px !important
+}
+
+.padding-16 {
+	padding-top: 16px !important;
+	padding-bottom: 16px !important
+}
+
+.padding-24 {
+	padding-top: 24px !important;
+	padding-bottom: 24px !important
+}
+
+.padding-32 {
+	padding-top: 32px !important;
+	padding-bottom: 32px !important
+}
+
+.padding-48 {
+	padding-top: 48px !important;
+	padding-bottom: 48px !important
+}
+
+.padding-64 {
+	padding-top: 64px !important;
+	padding-bottom: 64px !important
+}
+
+.padding-128 {
+	padding-top: 128px !important;
+	padding-bottom: 128px !important
 }
