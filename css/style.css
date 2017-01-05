@@ -490,3 +490,16 @@ footer {
 .border-right {
 	border-right: 1px solid #ccc !important
 }
+.progress-container {
+	width: 100%;
+	height: 1.5em;
+	position: relative;
+	background-color: #f1f1f1
+}
+
+.progressbar {
+	background-color: #757575;
+	height: 100%;
+	position: absolute;
+	line-height: inherit
+}
