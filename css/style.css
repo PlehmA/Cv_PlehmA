@@ -503,3 +503,49 @@ footer {
 	position: absolute;
 	line-height: inherit
 }
+.left {
+	float: left !important
+}
+
+.right {
+	float: right !important
+}
+
+.tiny {
+	font-size: 10px !important
+}
+
+.small {
+	font-size: 12px !important
+}
+
+.medium {
+	font-size: 15px !important
+}
+
+.large {
+	font-size: 18px !important
+}
+
+.xlarge {
+	font-size: 24px !important
+}
+
+.xxlarge {
+	font-size: 36px !important
+}
+
+.xxxlarge {
+	font-size: 48px !important
+}
+
+.jumbo {
+	font-size: 64px !important
+}
+
+.vertical {
+	word-break: break-all;
+	line-height: 1;
+	text-align: center;
+	width: 0.6em
+}
